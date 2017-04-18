@@ -1,0 +1,18 @@
+.heading{
+  color: #1f51d2;
+  text-align: center;
+}
+
+body{
+  background-color: #74aced;
+}
+
+#tabs{
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+#tabs a{
+  color: #1f51d2;
+}
+#99e0f6
