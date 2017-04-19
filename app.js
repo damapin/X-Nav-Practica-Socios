@@ -17,16 +17,18 @@ function formatMessages(messages,section){
 }
 
 $(document).ready(function () {
+
   $( "#tabs" ).tabs();
-
   var $timeline = $("#timeline");
-  $.getJSON( "timeline.json", function( data ){
+  var $myLine = $("#myLine");
 
+  // Display messages read by the user
+  $.getJSON( "timeline.json", function( data ){
     var messages = data.messages;
-    //var $timeline = $("#timeline");
     formatMessages(messages,$timeline);
   });
 
+  // Check and display unread messages
   $.getJSON("update.json", function(newData){
     if (newData !== undefined) {
       var $alertButton = $('<button class="button" id="unreadMessages">Read new messages</button>');
@@ -37,5 +39,11 @@ $(document).ready(function () {
         $alertButton.remove();
       });
     }
+  });
+
+  // Display messages sent by the user
+  $.getJSON("myline.json", function(data){
+    var messages = data.messages;
+    formatMessages(messages,$myLine);
   });
 });
