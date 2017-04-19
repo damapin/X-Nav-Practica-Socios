@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "author":"Me",
+      "avatar":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqScAhzGi-HRPoPgq-p9mK3LYaN86SSQ0zA7Ul0BswMc4YmRf8",
+      "title":"Questions to think about",
+      "content":"I'm so happy to be here today talking to you about some questions I reckon as important to mankind. These questions are: are we alone in the universe? Is god real or just a human need to believe? We'd rather have a pizza or a burguer right now?",
+      "date":"11/04/2017"
+    },
+    {
+      "author":"Me",
+      "avatar":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqScAhzGi-HRPoPgq-p9mK3LYaN86SSQ0zA7Ul0BswMc4YmRf8",
+      "title":"Mariano",
+      "content":"Los españoles somos muy españoles y mucho españoles (viva el vino, hips!). Ya sabeis que es el vecino el que elige al alcalde y es el alcalde el que quiere que sea el vecino el que elige al alcalde. Fin de la cita.",
+      "date":"19/04/2017"
+    }
+  ]
+}
