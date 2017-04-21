@@ -31,7 +31,7 @@ $(document).ready(function () {
   // Check and display unread messages
   $.getJSON("update.json", function(newData){
     if (newData !== undefined) {
-      var $alertButton = $('<button class="button" id="unreadMessages">Read new messages</button>');
+      var $alertButton = $('<button class="btn btn-primary" id="unreadMessages">Read new messages</button>');
       $timeline.append($alertButton);
       $alertButton.click(function(){
         var messages = newData.messages;
