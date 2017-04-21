@@ -4,7 +4,7 @@
 }
 
 .timeline-message{
-  font-size: 0.6em;
+  font-size: 0.7em;
   font-family: verdana, sans;
   border: solid 1px #1f51d2;
   border-radius: 3px;
@@ -21,6 +21,10 @@
   width: 80px;
   border: solid 1px #2b2b27;
   border-radius: 3px;
+}
+
+.timeline-message h2{
+  font-size: 1.9em;
 }
 
 .btn, .btn-primary{
